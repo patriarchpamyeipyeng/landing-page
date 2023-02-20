@@ -1,0 +1,258 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Overpass", sans-serif 'Ubuntu', sans-serif ;
+}
+:root{
+ --d: hsl(356, 100%, 66%)
+ --d: hsl(355, 100%, 74%)
+ --d: hsl(208, 49%, 24%)
+ --d: hsl(0, 0%, 100%)
+ --d: hsl(240, 2%, 79%)
+ --d: hsl(207, 13%, 34%)
+ --d: hsl(240, 10%, 16%)
+ --d: hsl(13, 100%, 72%)
+ --d: hsl(353, 100%, 62%)
+ --d: hsl(237, 17%, 21%)
+ --d: hsl(237, 23%, 32%)
+}
+@import url(https://fonts.google.com/specimen/Overpass?preview.text_type=custom);
+@import url(https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom);
+header{
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    /* background-size: 1500px; */
+    background-repeat: no-repeat;
+    background-position: center ;
+    border-bottom-left-radius:100px ;
+    background-color: hsl(356, 100%, 66%);
+    border-radius: 0 0 0 50px;
+    height: vh;
+    width: 100vw;
+    padding: 5.5rem 2.5rem 0.2rem;
+    font-family: "Ubuntu" , sans-serif ;
+}
+label{
+    color:  hsl(0, 0%, 100%);
+    margin: 0;
+}
+option{
+    color:  hsl(0, 0%, 100%);
+    border: 0 ;
+    border-radius: 0;
+
+}
+.brand{
+    margin: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login{
+    margin-left: 100px ;
+    color: hsl(0, 0%, 100%);
+    border: 0;
+    background: inherit;
+    font-weight: bold;
+
+
+}
+.mid{
+    background-color:  hsl(237, 23%, 32%);
+    background-image: url(images/bg-pattern-circles.svg);
+    height: 40vh;
+    border-radius: 0 50px 0 50px;
+    justify-content: flex-end;
+    /* font-family: "Overpass", sans-serif; */
+    /* background-image: url(images/illustration-phones.svg) ; */
+    background-repeat: no-repeat;
+    color: hsl(0,0% ,100% );
+    width: 100%;
+    /* text-align: center; */
+    padding: 20px; 
+    justify-content: flex-end;
+    display: flex;  
+    flex-basis: 25%;
+}
+.phones{
+   height: 50vh;
+   
+   
+
+}
+ select{
+    width: 1.5em;
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    background: inherit;
+    margin-right: 0;
+}
+  button{
+    font-weight: 200;
+    position: relative;
+    border-radius: 60px ;
+    width: 10vw;
+    height: 6vh;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+ } 
+ .link1 {
+    margin-left: 280px;
+    position:relative ;
+    margin-top: 60px;
+    margin-right: 10px;
+    color: hsl(356, 100%, 66%);
+    font-weight: bold;
+    margin-left: 600px;
+
+}
+.link2{
+    position: absolute;
+    margin-top: 60px;
+    color: hsl(0, 0%, 100%);
+    background: inherit;
+    border: 1px solid ;
+}
+ .modern{
+    text-align:  center;
+    padding: 15px;
+    color: hsl(0, 0%, 100%);
+ }
+    
+.link{
+    text-decoration: none;
+    justify-content: center;
+    border-radius: 70px;
+    display: flex;
+}
+.signup{
+    color:  hsl(356, 100%, 66%);
+
+}
+
+.text h1 {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+    font-size: 3.2rem;
+    color: hsl(0,0% ,100% );
+    text-align: center; 
+}
+footer{
+    background-color: hsl(240, 10%, 16%) ;
+    width: 100vw;
+    color: hsl(240, 2%, 79%);
+    height: 40vh;
+    border-radius: 0 30px 0 0;
+    text-align: center;
+    word-spacing: 10px;
+    /* display: flex;
+    justify-content: space-around; */
+    text-decoration: none;
+
+}
+section{
+    display: flex;
+    padding: 10px;
+    width: 50vw;
+}
+.deskeditor{
+    width: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    /* float: right; */   
+}
+.text{
+    margin-left: 70px;
+}
+.section2{
+    margin-top: 120px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.intro{
+    margin-bottom: 10px;
+}
+.rob{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+ .signup:hover{
+    color: hsl(0, 0%, 100%) ;
+    background: hsla(0, 0%, 100%, 0.204);
+ }
+ .link1:hover{
+    color: hsl(0, 0%, 100%);
+    background: hsla(0, 0%, 100%, 0.204) ;
+ }
+ .link2:hover{
+    color: hsl(356, 100%, 66%);
+    background: hsl(0, 0%, 100%);
+ }
+ .laptop{
+    width: 10px;
+    height: 100vh;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: flex;
+ }
+ main{
+    display: flex;
+    padding: 10px;
+    width: 30vw;
+}
+    /* margin: 20px; */
+ /* }
+ /* .free{
+    margin-left: 500px;
+    margin-top: 500px; 
+    text-align: left; 
+ /* }  */
+ .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2em;
+    font-family: "Ubuntu" , sans-serif ;
+
+}
+.foot{
+   flex-basis: 20%; 
+
+}
+h4{
+    padding-bottom: 1.5em ;
+}
+.free{
+    margin-left: 70em;
+    margin-top: 2em;
+    
+}
+.fos{
+    padding-bottom: 20px;
+    
+}
+.power{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.mains{
+    display: flex;
+}
